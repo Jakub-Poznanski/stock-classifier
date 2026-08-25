@@ -1,1 +1,2 @@
 # stock-classifier
+Many studies cite a >80% accuracy for a machine learning model predicting the direction of price moves of certain stocks. In practice, this is very difficult to accomplish as either the model is being overfit, or the model generalizes to always predicting the average target value (usually up). I aim to implement an LSTM that can see periods rather than individual days, which will allow it learn market patterns instead of just what each technical indicator represents.
